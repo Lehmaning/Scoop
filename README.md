@@ -3,9 +3,9 @@
     <h1 align="center">Scoop</h1>
 </p>
 <p align="center">
-<b><a href="https://github.com/ScoopInstaller/Scoop#what-does-scoop-do">Features</a></b>
+<b><a href="#what-does-scoop-do">Features</a></b>
 |
-<b><a href="https://github.com/ScoopInstaller/Scoop#installation">Installation</a></b>
+<b><a href="#installation">Installation</a></b>
 |
 <b><a href="https://github.com/ScoopInstaller/Scoop/wiki">Documentation</a></b>
 </p>
