@@ -67,10 +67,10 @@ If you've built software that you'd like others to use, Scoop is an alternative 
 Run the following command from your PowerShell to install scoop to its default location (`C:\Users\<user>\scoop`)
 
 ```powershell
-Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://cdn.jsdelivr.net/gh/Lehmaning/scoop/bin/install.ps1')
 
 # or shorter
-iwr -useb get.scoop.sh | iex
+iwr -useb cdn.jsdelivr.net/gh/Lehmaning/scoop/bin/install.ps1 | iex
 ```
 
 Once installed, run `scoop help` for instructions.
@@ -139,17 +139,17 @@ If you find Scoop useful and would like to support ongoing development and maint
 
 The following buckets are known to scoop:
 
-- [main](https://github.com/ScoopInstaller/Main) - Default bucket for the most common (mostly CLI) apps
-- [extras](https://github.com/ScoopInstaller/Extras) - Apps that don't fit the main bucket's [criteria](https://github.com/ScoopInstaller/Scoop/wiki/Criteria-for-including-apps-in-the-main-bucket)
-- [games](https://github.com/Calinou/scoop-games) - Open source/freeware games and game-related tools
-- [nerd-fonts](https://github.com/matthewjberger/scoop-nerd-fonts) -  Nerd Fonts
-- [nirsoft](https://github.com/kodybrown/scoop-nirsoft) - Almost all of the [250+](https://rasa.github.io/scoop-directory/by-apps#kodybrown_scoop-nirsoft) apps from [Nirsoft](https://nirsoft.net)
-- [java](https://github.com/ScoopInstaller/Java) - A collection of Java development kits (JDKs), Java runtime engines (JREs), Java's virtual machine debugging tools and Java based runtime engines.
-- [jetbrains](https://github.com/Ash258/Scoop-JetBrains) - Installers for all JetBrains utilities and IDEs
-<!-- * [nightlies](https://github.com/ScoopInstaller/Nightlies) - No longer used -->
-- [nonportable](https://github.com/TheRandomLabs/scoop-nonportable) - Non-portable apps (may require UAC)
-- [php](https://github.com/ScoopInstaller/PHP) - Installers for most versions of PHP
-- [versions](https://github.com/ScoopInstaller/Versions) - Alternative versions of apps found in other buckets
+- [main](https://hub.fastgit.org/ScoopInstaller/Main) - Default bucket for the most common (mostly CLI) apps
+- [extras](https://hub.fastgit.org/ScoopInstaller/Extras) - Apps that don't fit the main bucket's [criteria](https://github.com/ScoopInstaller/Scoop/wiki/Criteria-for-including-apps-in-the-main-bucket)
+- [games](https://hub.fastgit.org/Calinou/scoop-games) - Open source/freeware games and game-related tools
+- [nerd-fonts](https://hub.fastgit.org/matthewjberger/scoop-nerd-fonts) -  Nerd Fonts
+- [nirsoft](https://hub.fastgit.org/kodybrown/scoop-nirsoft) - Almost all of the [250+](https://rasa.github.io/scoop-directory/by-apps#kodybrown_scoop-nirsoft) apps from [Nirsoft](https://nirsoft.net)
+- [java](https://hub.fastgit.org/ScoopInstaller/Java) - A collection of Java development kits (JDKs), Java runtime engines (JREs), Java's virtual machine debugging tools and Java based runtime engines.
+- [jetbrains](https://hub.fastgit.org/Ash258/Scoop-JetBrains) - Installers for all JetBrains utilities and IDEs
+<!-- * [nightlies](https://hub.fastgit.org/ScoopInstaller/Nightlies) - No longer used -->
+- [nonportable](https://hub.fastgit.org/TheRandomLabs/scoop-nonportable) - Non-portable apps (may require UAC)
+- [php](hhttps://hub.fastgit.org/coopInstaller/PHP) - Installers for most versions of PHP
+- [versions](https://hub.fastgit.org/ScoopInstaller/Versions) - Alternative versions of apps found in other buckets
 
 The main bucket is installed by default. To add any of the other buckets, type:
 ```
