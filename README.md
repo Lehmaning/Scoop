@@ -67,6 +67,8 @@ If you've built software that you'd like others to use, Scoop is an alternative 
 Run the following command from your PowerShell to install scoop to its default location (`C:\Users\<user>\scoop`)
 
 ```powershell
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser'
+
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://cdn.jsdelivr.net/gh/Lehmaning/scoop/bin/install.ps1')
 
 # or shorter
